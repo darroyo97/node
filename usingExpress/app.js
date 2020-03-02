@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 let PORT = 3000;
-//sits in between server and my routes
+
 app.use(require('./routes/index'));
 // app.get('/', (req, res) => {
 //     res.send('Home Page')
