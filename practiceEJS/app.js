@@ -7,8 +7,9 @@ app.use(express.static('public'));
 app.use(require('./routes/index'));
 app.use(require('./routes/aboutus'));
 app.use(require('./routes/school'));
+app.use(require('./routes/cars'));
 
 
-app.listen(3004, () => {
+app.listen(3005, () => {
     console.log('running gon port 3004')
 })
